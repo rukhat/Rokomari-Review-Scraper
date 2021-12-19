@@ -49,7 +49,7 @@ def main():
 
     # Save as CSV
     data = {'Name': names, 'Review': reviews}
-    print(data)
+    # print(data)
 
     frame = pd.DataFrame(data)
     file_name = 'Book Review.csv'
